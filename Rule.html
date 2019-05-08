@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>20-20-20</title>
+		<link rel="stylesheet" href="Script.css">
+		
+	</head>
+	<body>
+		<header class="mainHeader">
+			<h1>The 20-20-20 Rule</h1>
+		</header>
+		
+		<section class="HeaderTwo">
+			<h1>Prevent eye strain with the 20-20-20 rule</h1>
+		</section>
+		
+		<section class=theRule>
+			<h2>Time:</h2>
+				<p id="time">
+				
+				</p>
+				
+				
+				<p class = "displayt">
+					<label for="starttime">Start Time</label>	<input type = "time" id = "starttime" name = "starttime" >
+					
+				</p>
+					<button id = "hit">hit</button>
+				<p class="displayt">
+						<label>Next-Alert</label><input type = "text" id = "timealert" name = "timealert" value="please select start time" readonly>
+				</p>
+		</section>
+		
+		<nav class="tabcontainer">
+		
+			<div class="buttoncontainer"> 
+				<button class="tabbutton" onclick = showpanel(0,grey)>Home</button>
+				<button class="tabbutton" onclick = showpanel(0,grey)>About</button>
+				<button class="tabbutton" onclick = showpanel(0,grey)>Game</button>
+				<button class="tabbutton" onclick = showpanel(0,grey)>Calculator</button>
+			</div>
+			
+			<div class="panelcontainer">
+				<section class="tabpanel">
+					This is Home
+				</section>
+					
+				<section class="tabpanel">
+					This is About
+				</section>
+					
+				<section class="tabpanel">
+					This is Game
+				</section>
+					
+				<section class="tabpanel">
+					This is Calculator
+				</section>
+			</div>
+		
+		</nav>
+		<script src="main.js" ></script>
+	</body>
+</html>
